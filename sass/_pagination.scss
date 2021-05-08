@@ -1,0 +1,28 @@
+nav {
+  margin-bottom: 1rem;
+}
+nav .pagination {
+  @extend %flex;
+
+  // width: 20vw;
+  max-width: 80vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 1em;
+
+  .pageItem {
+    @extend %flex;
+  }
+  .pageLink {
+    text-decoration: none;
+  }
+}
+
+.pushLeft {
+  margin-left: auto;
+}
+
+.pushRight {
+  margin-right: auto;
+}
