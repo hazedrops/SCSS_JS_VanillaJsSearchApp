@@ -21,11 +21,6 @@
     border-radius: 500px;
     padding: 0.75rem 0.75rem;
 
-    // @include mq(768px) {
-    //   width: 70vw;
-    //   padding: 0.75rem 0.75rem;
-    // }
-
     @include mq(1025px) {
       width: 55vw;
       padding: 0.5rem .75rem;
